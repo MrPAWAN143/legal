@@ -181,85 +181,17 @@ function Home() {
           </div>
         </div>
       </section>
-      <div className="custom_container">
-        <div className="categories">
-          <h2 className="categories_heading">Law Categories</h2>
-          <div className="grid">
-            <Link to="/services" className="grid-item">
-              <img src={complaint} alt="" height="50" width="50" />
-              <p>Constitutional Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={criminallaw} alt="" height="50" width="50" />
-              <p>Criminal Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={civilright} alt="" height="50" width="50" />
-              <p>Civil Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={order} alt="" height="50" width="50" />
-              <p>Administrative Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={familylaw} alt="" height="50" width="50" />
-              <p>Family Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={corporatelaw} alt="" height="50" width="50" />
-              <p>Corporate Law</p>
-            </Link>
-            <Link href="" className="grid-item">
-              <img src={protectedimg} alt="" height="50" width="50" />
-              <p>Contract Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={stamp} alt="" height="50" width="50" />
-              <p>Property Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={labourlaw} alt="" height="50" width="50" />
-              <p>Labor and Employment Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={onlinetax} alt="" height="50" width="50" />
-              <p>Taxation Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={international} alt="" height="50" width="50" />
-              <p>Environmental Law</p>
-            </Link>
-            <Link href="" className="grid-item">
-              <img src={complaint} alt="" height="50" width="50" />
-              <p>Intellectual Property Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={complaint} alt="" height="50" width="50" />
-              <p>Consumer Protection Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={complaint} alt="" height="50" width="50" />
-              <p>Cyber Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={complaint} alt="" height="50" width="50" />
-              <p>Maritime Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={complaint} alt="" height="50" width="50" />
-              <p>Banking and Finance Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={complaint} alt="" height="50" width="50" />
-              <p>Human Rights Law</p>
-            </Link>
-            <Link to="/services" className="grid-item">
-              <img src={complaint} alt="" height="50" width="50" />
-              <p>International Law</p>
-            </Link>
-          </div>
+     
+      <section className="section documents_section">
+        <div className="custom_container">
+          <h2>Buy Legal Documents</h2>
+          <p>
+            Trustworthy Solutions for Your Legal Needs where Legal Clarity Meets
+            Convenience
+          </p>
+          <FirstSlider />
         </div>
-      </div>
+      </section>
     
       <section className="section lawyers_section">
         <div className="custom_container">
@@ -353,16 +285,88 @@ function Home() {
         </div>
       </section>
 
-      <section className="section documents_section">
-        <div className="custom_container">
-          <h2>Buy Legal Documents</h2>
-          <p>
-            Trustworthy Solutions for Your Legal Needs where Legal Clarity Meets
-            Convenience
-          </p>
-          <FirstSlider />
+
+      <div className="custom_container">
+        <div className="categories">
+          <h2 className="categories_heading">Law Categories</h2>
+          <div className="grid">
+            <Link to="/services" className="grid-item">
+              <img src={complaint} alt="" height="50" width="50" />
+              <p>Constitutional Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={criminallaw} alt="" height="50" width="50" />
+              <p>Criminal Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={civilright} alt="" height="50" width="50" />
+              <p>Civil Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={order} alt="" height="50" width="50" />
+              <p>Administrative Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={familylaw} alt="" height="50" width="50" />
+              <p>Family Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={corporatelaw} alt="" height="50" width="50" />
+              <p>Corporate Law</p>
+            </Link>
+            <Link href="" className="grid-item">
+              <img src={protectedimg} alt="" height="50" width="50" />
+              <p>Contract Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={stamp} alt="" height="50" width="50" />
+              <p>Property Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={labourlaw} alt="" height="50" width="50" />
+              <p>Labor and Employment Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={onlinetax} alt="" height="50" width="50" />
+              <p>Taxation Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={international} alt="" height="50" width="50" />
+              <p>Environmental Law</p>
+            </Link>
+            <Link href="" className="grid-item">
+              <img src={complaint} alt="" height="50" width="50" />
+              <p>Intellectual Property Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={complaint} alt="" height="50" width="50" />
+              <p>Consumer Protection Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={complaint} alt="" height="50" width="50" />
+              <p>Cyber Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={complaint} alt="" height="50" width="50" />
+              <p>Maritime Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={complaint} alt="" height="50" width="50" />
+              <p>Banking and Finance Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={complaint} alt="" height="50" width="50" />
+              <p>Human Rights Law</p>
+            </Link>
+            <Link to="/services" className="grid-item">
+              <img src={complaint} alt="" height="50" width="50" />
+              <p>International Law</p>
+            </Link>
+          </div>
         </div>
-      </section>
+      </div>
+
+  
       <section className="section testimonial_section">
         <div className="custom_container">
           <h2 className="text-center">Client Testimonials</h2>

@@ -15,7 +15,7 @@ function Header() {
         </Link>
       </div>
       <div className="searchbar">
-        <input type="text" />
+        <input type="text" placeholder="Search.."/>
         <button>
           <i className="fa-solid fa-magnifying-glass"></i>
         </button>

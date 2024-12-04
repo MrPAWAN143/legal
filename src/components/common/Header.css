@@ -18,6 +18,9 @@ navbar {
     height: 40px;
     font-size: 18px;
   }
+  .searchbar input::placeholder{
+    
+  }
   
   .searchbar input,
   .searchbar button {
