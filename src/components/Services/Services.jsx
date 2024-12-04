@@ -18,7 +18,7 @@ function Services() {
             </p>
           </div>
 
-          <a href="">Consult Now</a>
+          <Link to="/lawyerlisting">Consult Now</Link>
         </div>
       </section>
 
