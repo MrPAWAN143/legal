@@ -1,10 +1,9 @@
 .hero-section {
     background-image: url("../../assets/images/still-life-with-scales-justice\ \(1\).jpg");
-    /* background-image: url("../../assets/images/law.jpg"); */
     background-size: cover ;
     background-position: top;
   background-repeat: no-repeat;
-    height: 80vh;
+    height: 400px;
     width: 100%;
 
     
