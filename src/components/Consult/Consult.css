@@ -1,0 +1,272 @@
+.lawyer_page .custom_container{
+    padding: 50px;
+  }
+  
+  .lawyer_page .custom_container .lawyer_page_row{
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 40px;
+  }
+  
+  .lawyer_page_profile{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .lawyer_page_profile > img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .lawyer_page .custom_container .lawyer_page_row .col_9 .about_section p, .lawyer_page .custom_container .lawyer_page_row .col_9 .specialization p{
+    margin-top: 10px;
+  font-size: 14px;
+  }
+  
+  .lawyer_reviews > h4{
+    padding-bottom: 20px;
+  }
+  
+  .lawyer_reviews_item{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    font-size: 15px;
+    padding: 5px 0;
+    margin-bottom: 20px;
+  }
+  
+  .lawyer_reviews_item > img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .lawyer_page_review h4{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .lawyer_page_review .lawyer_ratings{
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+  
+  .lawyer_page_review  p{
+  font-size: 14px;
+  padding-bottom: 10px;
+  }
+  
+  .lawyer_page_review h4 img{
+    width: 25px;
+  }
+  
+  .lawyer_reviews_item .lawyer_page_review span{
+    display: inline-block;
+    color: #2c2c2c47;
+  }
+  
+  .lawyer_page .custom_container .lawyer_page_row .col_3 .languages{
+    margin-bottom: 20px;
+  }
+  
+  .lawyer_page .custom_container .lawyer_page_row .col_3 span{
+    display: inline-block;
+    background-color: #cccccc92;
+    padding: 3px 6px;
+    font-size: 13px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  .lawyer_page .custom_container .lawyer_page_row .col_3 a:hover{
+    background-color: white;
+    color: black;
+    transition: 300ms ease
+  }
+  
+  .lawyer_page_faqs > h4{
+    margin-bottom: 20px;
+  }
+  
+  .lawyer_page_faqs .faq_item{
+    padding: 10px 0;
+  }
+  .lawyer_page_faqs .faq_item details{
+    cursor: pointer;
+  }
+  
+  .lawyer_page_faqs .faq_item details .answer{
+    margin: 10px 0 20px 0;
+  }
+  
+  .consultation_form .name{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 10px;
+  }
+  
+  .consultation_form .mail_phone{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 10px;
+  }
+  
+  .consultation_form .category{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 10px;
+  }
+  
+  .consultation_form label{
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 600
+  }
+  
+  .consultation_form input, select{
+    font-size: 14px;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .consultation_form input{
+    height: 35px;
+    padding-left:10px ;
+  }
+  
+  .form_div{
+    margin-bottom: 15px;
+  }
+  
+  .consultation_form .case_description textarea{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+  }
+  
+  .consultation_form .appointment_date input{
+  width: 300px;
+  }
+  
+  .consultation_form .terms{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .consultation_form .terms p{
+    padding-bottom: 0;
+  }
+  
+  .consultation_form .terms a{
+    text-decoration: none;
+  }
+  
+  .consultation_form .terms input{
+    height: 15px;
+    width: 15px;
+    margin-bottom: 0;
+  }
+  .consultation_form form{
+    margin: 20px 0;
+  }
+  
+  /* Modal */
+  
+  .form_modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000058;
+    display: none;
+    z-index: 1;
+  }
+  
+  .form_content{
+    background-color: white;
+    margin: 200px 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 450px;
+  
+  }
+  .form_content img{
+    height: 150px;
+    width: 150px;
+  }
+  
+  .form_content .div_1{
+    text-align: center;
+  }
+  
+  .form_content .div_1 h3{
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Modal ENd */
+
+
+  @media only screen and (max-width:768px) {
+    .about_section{
+      margin-top: 20px;
+    }
+    .lawyer_page .custom_container .lawyer_page_row{
+      grid-template-columns: 1fr;
+    }
+
+    .lawyer_page_profile{
+      grid-template-columns: 1fr;
+    }
+
+    .lawyer_page_profile>img{
+      margin: auto;
+    }
+    .lawyer_experience{
+      justify-content: center;
+      margin: 10px auto;
+    }
+    .lawyer_rating_main{
+      flex-direction: column;
+    }
+    .lawyer_rating_main .rating_img , .lawyer_rating_main span{
+      margin: auto;
+    }
+    .lawyer_reviews_item{
+      flex-direction: column;
+    }
+    .lawyer_reviews_item > img{
+      margin: auto;
+    }
+    .lawyer_page_review{
+      margin: auto;
+    }
+
+    .consultation_form .name{
+      grid-template-columns: 1fr;
+    }
+    .consultation_form .mail_phone{
+      grid-template-columns: 1fr;
+    }
+    .consultation_form .category{
+      grid-template-columns: 6fr 6fr;
+    }
+  }
+  

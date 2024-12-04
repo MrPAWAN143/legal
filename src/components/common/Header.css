@@ -1,0 +1,133 @@
+navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 0px #cccccc45;
+  }
+  
+  .searchbar {
+    border: 1px solid #ccc;
+    width: 400px;
+    display: flex;
+    padding: 0 10px;
+    font-size: 25px;
+  }
+  
+  .searchbar input {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+  }
+  
+  .searchbar input,
+  .searchbar button {
+    border: none;
+    outline: none;
+    background-color: white;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  navbar .menu .menu_links {
+    display: inline-block;
+    padding: 20px 0;
+  }
+  
+  navbar .menu .nav-link a {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+  }
+
+  .nav-link.menu_links.dropdown>:first-child{
+    padding-right: 5px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    z-index: 1;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    left: 0;
+    padding: 20px 25px;
+    height: 415px;
+    background-color: white;
+  }
+  
+  .menu_container {
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 20px;
+  }
+  
+  .menu_col {
+    width: 230px;
+  }
+
+  .mobile_menu{
+    display: none;
+  }
+  .mobile_menu_options{
+    display: none;
+  }
+  .menuOptions{
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    navbar{
+      width: 100%;
+    }
+    navbar .logo a img{
+      height: 50px;
+      width: 150px;
+    }
+    navbar .searchbar, navbar .menu{
+      display: none;
+    }
+    .mobile_menu{
+      display: block;
+      padding: 0 10px;
+    }
+    .mobile_menu_options{
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #000000d1;
+      z-index: 3;
+      padding: 20px;
+      
+    }
+
+    .mobile_menu_options .close{
+      padding: 10px;
+      color: white;
+    }
+    .mob_menu_item{
+      padding: 10px 15px;
+    }
+    .mob_menu_item a{
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+    }
+  }

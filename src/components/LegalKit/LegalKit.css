@@ -1,0 +1,99 @@
+.legal_kit_row {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 40px;
+}
+
+.legal_kit_row .col_1 hr {
+  margin: 20px 0;
+}
+
+.legal_kit_row .col_2 .legal_kits_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.legal_kit_row .col_2 .legal_kits_grid .legal_grid_item {
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.legal_kit_row .col_2 .legal_kits_grid .legal_grid_item * {
+  margin-bottom: 10px;
+}
+
+.legal_kit_row .col_2 .legal_kits_grid .legal_grid_item span {
+  display: block;
+}
+
+.legal_kit_row .col_2 .legal_kits_grid .legal_grid_item img {
+  width: 60px;
+}
+
+.legal_kit_row .col_2 .legal_kits_grid .legal_grid_item button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+}
+
+.legal_kit_row .col_2 .legal_kits_grid .legal_grid_item button:hover {
+  color: black;
+  background-color: white;
+  transition: 300ms;
+}
+
+.notFound {
+  display: block;
+  text-align: center;
+}
+
+.cartDiv {
+  margin-bottom: 30px;
+  text-align: right;
+  position: relative;
+}
+
+.cart_length{
+  display: inline-flex;
+  align-items: center;
+  padding: 5px;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(133, 7, 7);
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+}
+
+.cartLink {
+  color: black;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .legal_kit_row {
+    grid-template-columns: 1fr;
+  }
+  .legalkit_search_category .category_list {
+    display: none;
+  }
+  .legal_kits_grid {
+    grid-template-columns: 1fr !important;
+  }
+  .cartDiv {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: right;
+  }
+  .cartLink {
+    font-size: 25px;
+  }
+}
